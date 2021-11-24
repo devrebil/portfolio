@@ -1,0 +1,50 @@
+@import url(style.css);
+
+.body__container {
+    font-family: 'Roboto', sans-serif;
+}
+
+.top--box {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+}
+
+.body__top {
+    
+    margin: auto;
+}
+
+.btn--container {
+}
+
+.diary--btn {
+    width: 200px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.comment {
+    font-weight: bold;
+    color: blue;
+}
+
+.posting-box {
+    margin: 10px auto 30px auto;
+    width: 600px;
+
+    border: 3px solid black;
+    border-radius: 5px;
+
+    padding: 25px;
+
+    display: none;
+}
+
+.card-columns {
+    padding-top: 50px;
+    display: flex;
+    flex-direction: columns;
+    width: 900px;
+    margin: auto;
+}
